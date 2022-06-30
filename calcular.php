@@ -8,8 +8,9 @@ if ($cantidad>1000){
 }
 else
 {
-    if($cantidad>100)
+    if($cantidad>100){
         $descuento=$subtotal*0.05;
+    }
     else{
         $descuento=0;
     }
