@@ -8,8 +8,9 @@ if ($cantidad>1000){
 }
 else
 {
-    if($cantidad>100)
+    if($cantidad>100){
         $descuento=$subtotal*0.05;
+    }
     else{
         $descuento=0;
     }
@@ -30,9 +31,9 @@ switch($edad)
     case 48:
         echo "El doble de tu edad";
         break;
-        default:
+    default:
         echo "Desconozco tu edad";
         break;
-}
+
 
 ?>
